@@ -3,7 +3,7 @@ import Link from "next/link";
 import logoImg from "@/assets/logo.png";
 import classes from "./main-header.module.css";
 import Image from "next/image";
-import MainHeaderBackground from "../main-header-background/main-header-background";
+import MainHeaderBackground from "./main-header-background";
 
 export default function MainHeader() {
   return (
